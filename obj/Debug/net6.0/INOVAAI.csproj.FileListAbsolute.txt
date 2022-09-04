@@ -1,0 +1,15 @@
+C:\Users\silas\Desktop\INOVAAI\bin\Debug\net6.0\INOVAAI.exe
+C:\Users\silas\Desktop\INOVAAI\bin\Debug\net6.0\INOVAAI.deps.json
+C:\Users\silas\Desktop\INOVAAI\bin\Debug\net6.0\INOVAAI.runtimeconfig.json
+C:\Users\silas\Desktop\INOVAAI\bin\Debug\net6.0\INOVAAI.dll
+C:\Users\silas\Desktop\INOVAAI\bin\Debug\net6.0\INOVAAI.pdb
+C:\Users\silas\Desktop\INOVAAI\obj\Debug\net6.0\INOVAAI.csproj.AssemblyReference.cache
+C:\Users\silas\Desktop\INOVAAI\obj\Debug\net6.0\INOVAAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\silas\Desktop\INOVAAI\obj\Debug\net6.0\INOVAAI.AssemblyInfoInputs.cache
+C:\Users\silas\Desktop\INOVAAI\obj\Debug\net6.0\INOVAAI.AssemblyInfo.cs
+C:\Users\silas\Desktop\INOVAAI\obj\Debug\net6.0\INOVAAI.csproj.CoreCompileInputs.cache
+C:\Users\silas\Desktop\INOVAAI\obj\Debug\net6.0\INOVAAI.dll
+C:\Users\silas\Desktop\INOVAAI\obj\Debug\net6.0\refint\INOVAAI.dll
+C:\Users\silas\Desktop\INOVAAI\obj\Debug\net6.0\INOVAAI.pdb
+C:\Users\silas\Desktop\INOVAAI\obj\Debug\net6.0\INOVAAI.genruntimeconfig.cache
+C:\Users\silas\Desktop\INOVAAI\obj\Debug\net6.0\ref\INOVAAI.dll
