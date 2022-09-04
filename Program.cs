@@ -15,9 +15,13 @@ public class Program
 
 
     static int linhaExcel; //Indica qual linha da planilha receberá os dados
-    static string nomefoto; //copia o nome de cada foto
+    static string nomefoto = ""; //copia o nome de cada foto
 
-    static string pastadefotos = "C:\\Users\\silas\\Desktop\\digitainova";
+    static string pastadefotos = "C:\\Users\\silas\\Desktop\\digitainova\\"; // caminho da pasta com as fotos tiradas das caixas 
+
+    static string fotosdigitalizadas = "C:\\Users\\silas\\Desktop\\digitalizadas\\"; // caminho da pasta onde as fotos pós digitalizadas serão armazenadas
+
+    static string pathExcel = @"C:\Users\silas\Desktop\digitalizadas\EGL.xlsx";
     public static void Inicio()
     {
 
@@ -54,7 +58,7 @@ public class Program
                     // Console.WriteLine(i + "" + j + ".jpg");
                     linhaExcel = linha;
                     //Console.WriteLine("linha excel" + linha);
-                    string path = "Y:\\Pessoal\\Silas\\inovaai\\" + i + "" + j + ".jpg";
+                    string path = pastadefotos + i + "" + j + ".jpg";
                     nomefoto = i + "" + j;
                     try
                     {
@@ -128,7 +132,7 @@ public class Program
             }
         }
         // Driver Code
-        myBitmap.Save("Y:\\Pessoal\\Silas\\tete\\" + nomefoto + ".jpg");
+        myBitmap.Save(fotosdigitalizadas + nomefoto + ".jpg");
         // Console.WriteLine("Salvar Excel a seguir");
 
 
@@ -312,7 +316,7 @@ public class Program
 
 
         // Driver Code
-        myBitmap.Save("Y:\\Pessoal\\Silas\\tete\\" + nomefoto + ".jpg");
+        myBitmap.Save(fotosdigitalizadas + nomefoto + ".jpg");
         // Console.WriteLine("Salvar Excel a seguir");
 
 
@@ -329,7 +333,7 @@ public class Program
     {
         //Nova bilbioteca para manipulação de excel > XSSF
         XSSFWorkbook wb;
-        using (var fs = new FileStream(@"Y:\Pessoal\Silas\EGL.xlsx", FileMode.Open, FileAccess.Read))
+        using (var fs = new FileStream(pathExcel, FileMode.Open, FileAccess.Read))
             wb = new XSSFWorkbook(fs);
         var sheet = wb.GetSheet("0101");
 
@@ -385,7 +389,7 @@ public class Program
 
         }
         // Console.WriteLine("Write");
-        using (var fs = new FileStream(@"Y:\Pessoal\Silas\EGL.xlsx", FileMode.OpenOrCreate, FileAccess.Write))
+        using (var fs = new FileStream(pathExcel, FileMode.OpenOrCreate, FileAccess.Write))
         {
             wb.Write(fs);
         }
